@@ -32,5 +32,19 @@ insert into zaposlenik(sifra,ime,prezime,nadredeni,radnomjesto) values
 (null,'Mario','Kurt',null,1),
 (null,'Marin','Hed',1,2),
 (null,'Ivana','Kur',1,3),
-(null,'Zvonko','Mig',3,4),
+(null,'Zvonko','Mig',2,4),
 (null,'Ana','Kal',3,4);
+
+/*
+3.zadatak 
+postaviti 'Ana Kal' kao nadređenu ivani i zvonku i obrisati ivanu
+*/
+update zaposlenik set nadredeni=5 where sifra=3;
+update zaposlenik set nadredeni=5 where sifra=4;
+
+update zaposlenik set nadredeni=1 where sifra=5;
+
+delete from zaposlenik where sifra=3;
+
+
+
