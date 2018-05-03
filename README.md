@@ -7,4 +7,6 @@ Zadatak sa PHP predavanja 2018-05-02. Vježba kreiranja baze podataka, relacijsk
 #2 zadatak
 -unesi odgovarajuce vrijednosti  u tablicu
 
+#3 zadatak
+-postaviti 'Ana Kal' kao nadređenu ivani i zvonku i obrisati ivanu
 PHP@Edunova 
